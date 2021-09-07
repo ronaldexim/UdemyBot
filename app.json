@@ -12,15 +12,15 @@
     "env": {
         "API_HASH": {
             "description": "Get one from https://my.telegram.org/apps",
-            "value": ""
+            "value": "${{ secrets.API_HASH }}"
         },
         "API_ID": {
             "description": "Get one from https://my.telegram.org/apps",
-            "value": ""
+            "value": "${{ secrets.API_ID }}"
         },
         "TOKEN": {
             "description": "From BotFather",
-            "value": ""
+            "value": "${{ secrets.TOKEN }}"
         }
     }
 }
